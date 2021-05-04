@@ -24,6 +24,18 @@ class App extends Component {
                    
                 </div>
 
+
+              <footer className="pv4 ph3 ph5-m ph6-l mid-gray">
+                <small className="f6 db tc">© 2021 -
+                  Owner of the Idea <b className="ttu"><a href="https://instagram.com/salah_eddine_badir?igshid=t9l3a3vacj6p" title="insta" className="f6 dib ph2 link black dim">Salah</a>
+                  </b>, Made by <b className="ttu"><a href="https://github.com/Soufiane-Majdar" title="github" className="f6 dib ph2 link black dim">Soufiane</a></b> </small>
+                <div className="tc mt3">
+                  <p title="Email" className="f6 dib ph2 link mid-gray dim">majdar.soufiane@gmail.com</p>
+                </div>
+              </footer>
+
+
+
                 
       </div>
     );
