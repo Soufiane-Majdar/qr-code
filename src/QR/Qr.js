@@ -68,7 +68,7 @@ const Qr=() => {
 
                 <input 
                 style={{width: '100%'}}
-                className="f6 mv1 f5-l  bg-light-gray pa2 lh-solid  br2-ns br-ns" 
+                className="f6 mv2 f5-l  bg-light-gray pa2 lh-solid  br2-ns br-ns" 
                 Placeholder="write your Number.."
                 type="text" 
                 name="search"  
@@ -78,7 +78,7 @@ const Qr=() => {
                 
                 <input 
                 style={{width: '100%'}}
-                className="f6 mv1 f5-l  bg-light-gray pa2 lh-solid  br2-ns br-ns" 
+                className="f6 mv2 f5-l  bg-light-gray pa2 lh-solid  br2-ns br-ns" 
                 Placeholder="write snap username.."
                 type="text" 
                 name="search"  
@@ -88,7 +88,7 @@ const Qr=() => {
                 
                 <input 
                 style={{width: '100%'}}
-                className="f6 mv1 f5-l  bg-light-gray pa2 lh-solid  br2-ns br-ns" 
+                className="f6 mv2 f5-l  bg-light-gray pa2 lh-solid  br2-ns br-ns" 
                 Placeholder="write insta username.."
                 type="text" 
                 name="search"  
@@ -98,7 +98,7 @@ const Qr=() => {
                 
                 <input 
                 style={{width: '100%'}}
-                className="f6 mv1 f5-l  bg-light-gray pa2 lh-solid  br2-ns br-ns" 
+                className="f6 mv2 f5-l  bg-light-gray pa2 lh-solid  br2-ns br-ns" 
                 Placeholder="write facebook username.."
                 type="text" 
                 name="search"  
@@ -108,7 +108,7 @@ const Qr=() => {
 
                 <input 
                 style={{width: '100%'}}
-                className="f6 mv1 f5-l  bg-light-gray pa2 lh-solid  br2-ns br-ns" 
+                className="f6 mv2 f5-l  bg-light-gray pa2 lh-solid  br2-ns br-ns" 
                 Placeholder="write other things.."
                 type="text" 
                 name="search"  
@@ -117,11 +117,11 @@ const Qr=() => {
                 />
 
                 
-                <div id="qrcode" />
+                <div className="mv4">
                 <QRCode id="myCanvas" value={data} 
                 size={240}
                 />
-                
+                </div>
 
             </div>
             
