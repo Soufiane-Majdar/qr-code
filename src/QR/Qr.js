@@ -109,7 +109,7 @@ const Qr=() => {
                 <input 
                 style={{width: '100%'}}
                 className="f6 mv2 f5-l  bg-light-gray pa3 lh-solid  br2-ns br-ns" 
-                Placeholder="write other thigs.."
+                Placeholder="write other things.."
                 type="text" 
                 name="search"  
                 id="search" 
@@ -119,14 +119,10 @@ const Qr=() => {
                 
                 <div id="qrcode" />
                 <QRCode id="myCanvas" value={data} 
-                size={210}
+                size={240}
                 />
                 
-            <div className="tc  mt4 center">
-                    <a id="download"  download="triangle.png">
-                        <button style={{width: '50%',height: '30px'}} type="button" onClick="download()">Download</button>
-                    </a>
-              </div>
+
             </div>
             
         );
