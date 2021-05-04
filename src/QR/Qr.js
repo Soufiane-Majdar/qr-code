@@ -13,7 +13,7 @@ var all="";
 const Qr=() => {
     
    
-        const[data,setData]= useState("soufiane")
+        const[data,setData]= useState("My name is:[ Soufiane ],My snap:[ soufiane5017 ], Facebook:[ https://www.facebook.com/soufiane.dmj ],  Enjoy using this website ")
         function getData(val)
         {
             all="My name is:[ "+name+" ], Number:[ "+num+" ], snap:[ "+snap+" ], insta:[ "+inst+" ], Facebook:[ "+face+" ], Other:[ "+other+" ]";
