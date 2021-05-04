@@ -21,7 +21,11 @@ class App extends Component {
                    <h3 className="underline tc navy">fill out the following form</h3>
                     
                     <Qr />
-                   
+                        <article className="day-forecast">
+                          <h2>How to use</h2>
+                          <p>To scan this code, you can use a QR code reading application on your phone..</p>
+                        </article>
+
                 </div>
 
 
