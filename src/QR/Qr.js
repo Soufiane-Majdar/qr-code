@@ -16,38 +16,65 @@ const Qr=() => {
         const[data,setData]= useState("My name is:[ Soufiane ],My snap:[ soufiane5017 ], Facebook:[ https://www.facebook.com/soufiane.dmj ],  Enjoy using this website ")
         function getData(val)
         {
-            all="My name is:[ "+name+" ], Number:[ "+num+" ], snap:[ "+snap+" ], insta:[ "+inst+" ], Facebook:[ "+face+" ], Other:[ "+other+" ]";
+            if(name==="My name is:[  ]," )
+            {
+                name="";
+            } 
+           if(num===" Number:[  ],"  )
+            {
+                num="";
+            }
+             if(snap===" Snap:[  ]," )
+            {
+                snap="";
+            }
+
+            if( inst===" Insta:[  ]," )
+            {
+                inst="";
+            }
+            if(face===" Facebook:[  ]," )
+            {
+                face="";
+            }
+            if(other===", Other:[  ]" )
+            {
+                other="";
+            }
+
+
+            all=name+num+snap+inst+face+other;
             setData(all)
         }
         function getName(val)
         {
-            name= val.target.value;
+            name= "My name is:[ "+val.target.value+" ],";
             getData();
 
         }
         function getNumber(val)
         {
-            num= val.target.value;
+            num= " Number:[ "+val.target.value+" ],";
             getData();
         }
         function getSnap(val)
         {
-            snap= val.target.value;
+            snap= " Snap:[ "+val.target.value+" ],";
             getData();
         }
         function getInsta(val)
         {
-            inst= val.target.value;
+            inst= " Insta:[ "+val.target.value+" ],";
             getData();
         }
         function getFace(val)
         {
-            face= val.target.value;
+            face= " Facebook:[ "+val.target.value+" ],";
             getData();
         }
         function getOther(val)
         {
-            other= val.target.value;
+            other= ", Other:[ "+val.target.value+" ]";
             getData();
         }
 
